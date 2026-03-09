@@ -28,3 +28,9 @@ jobs:
                 echo "::warning file=.github/workflows/DevelopInBranch.yml, line=19, endline=21::A lot of messages"
 
                 echo "::error title=Script Injection, file=.github/workflows/DevelopInBranch.yml,line=13, endcloumn=68::Potential script injection"
+
+                echo "::notice file={name}, line={line}, endLine={el}, titile={title}::{message}"
+
+                echo "::error file={name}, line={line}, endLine={el}, title={title}::{message}"
+
+                echo "::error file={name}, line={line}, endLine={el}, title={title}::{message}"
